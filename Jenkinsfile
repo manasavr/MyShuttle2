@@ -1,5 +1,3 @@
-echo"// Stack implementation in Java
-
 class Stack {
 
   // store elements of stack
@@ -85,4 +83,4 @@ class Stack {
     stack.printStack();
 
   }
-}"
+}
