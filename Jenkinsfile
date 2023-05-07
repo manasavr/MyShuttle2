@@ -1,4 +1,3 @@
-echo{
         import pandas
         from sklearn import model_selection
         from sklearn.linear_model import LogisticRegression
@@ -16,7 +15,7 @@ echo{
         X_train, X_test, Y_train, Y_test = model_selection.train_test_split(X, Y, test_size=test_size, random_state=seed)
 
         # Fit the model on training set
-        # print("Creating Logistic Regression Model ..")
+echo  print("Creating Logistic Regression Model ..")
         model = LogisticRegression()
         # print("Training Model ..")
         model.fit(X_train, Y_train)
@@ -32,4 +31,3 @@ echo{
         result = loaded_model.score(X_test, Y_test)
         # print("==================================================")
         # print("\n Score = " , result)
-}
